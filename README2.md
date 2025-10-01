@@ -153,13 +153,15 @@ Every project must include:
 
 ## ⏱ Suggested Milestones
 
-- Week 1 (Design): Define your system, sketch class diagram, write initial tests.
+- Week 1 (Pick your group): Make your group of 3 people from your lab section.
+  
+- Weeks 2 (Design): Define your system, sketch class diagram, write initial tests.
 
-- Week 2 (Implementation): Build core features and data structures.
+- Week 3-5 (Implementation): Build core features and data structures. **Remember to use TDD to test throughout development!**
 
-- Week 3 (Testing & Reports): Add recursive feature and reports.
+- Week 6 (Final Testing & Reports): Add recursive feature and reports.
 
-- Week 4 (Polish & Presentation): Finalize tests, documentation, and demo.
+- Week 7 (Polish & Presentation): Finalize tests, documentation, and demo.
 
 ---
 
@@ -224,10 +226,10 @@ the course.
 You may use generative AI for most parts of the project, in particular, to help brainstorm, debug, or draft code.
 However:
 
-    - Keep a log of key prompts you used.
+- Keep a log of key prompts you used.
 
-    - Comment any AI-generated code that you adapted.
+- Comment any AI-generated code that you adapted.
 
-    - Reflect on what you changed or improved.
+- Reflect on what you changed or improved.
 
 The goal is to learn how to work with AI responsibly, while keeping ownership of your code and design.
