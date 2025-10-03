@@ -53,6 +53,8 @@ public interface ManagementSystem<T> {
 
 You may choose any theme, for example:
 
+TODO: add exclusion of Library and
+
 - 📚 Library Management System (Books, Patrons, Loans)
 
 - 🏫 Student Course Registration (Students, Courses, Waitlists)
@@ -148,12 +150,14 @@ Every project must include:
     - Explanation of your OOP design (inheritance, recursion, linked lists).
 
     - Reflection on your use of AI.
+5. TODO: Report
 
 ---
 
 ## ⏱ Suggested Milestones
 
 - Week 1 (Pick your group): Make your group of 3 people from your lab section.
+- TODO: Proposal???
   
 - Weeks 2 (Design): Define your system, sketch class diagram, write initial tests.
 
