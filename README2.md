@@ -135,6 +135,16 @@ Every project must include:
 
 ---
 
+## 👩🏻‍🏫🙋🏽Presentation
+
+Your group presentation should provide a demo of your management system in action, explain your design choices, and how generative AI was used. 
+
+TODO: finish this section
+
+
+
+
+
 ## 📊 Deliverables
 
 1. Codebase (Java, well-structured).
@@ -169,17 +179,43 @@ Every project must include:
 
 ---
 
-## ✅ Grading (example weights)
+## ✅ Grading 
 
-- Correctness & Features – 40%
+The following is the rubric of where marks will be awarded in this project.
 
-- OOP Design & Data Structures – 20%
+- **Code Design (5 marks):** Average projects will produce an implementation that accurately 
+represents the management system chosen by the group using principles of cohesion to have meaningful representation of objects, reduce 
+coupling between classes to ensure future extension, and will be fully encapsulated for future compatibility and evolution. Excellent solutions 
+will have exceptional quality in the above and/or use advanced features in Java such as abstract 
+classes or interfaces appropriately. It is strongly recommended you document design choices (i.e., why your code is what it is, not just what it is) in your class/method header Javadoc 
+documentation.
+- **Testing (3 marks):** Average TDD will have tests for the majority of classes and coverage of most branches.  Excellent
+  solutions will have very high branch coverage, all edge cases covered, and robust input handling.
+- **Code Documentation (2 marks):** Average classes will be self-documenting code with well-formed with Javadoc comments for the
+majority of methods and good block level comments.  Excellent documentation will do all of the above throughout all
+of their project.
+- **Presentation (3 marks):** Average presentations will 
+- **Reflection (2 marks):** Average reflections will engage with the provided prompts to have descriptions and reasoning 
+regarding their application of AI.  Excellent reflections will take into account context in which events occur, 
+questions assumption that were made at the time, describes alternatives, thinks about consequences of decisions/actions 
+on others, and engages in reflective skepticism.
 
-- Test-Driven Development – 15%
+## Potential Bonus - 5% of Course Final Mark
+There are a potential bonus that may be awarded at the discretion of the marker/instructor.  Up to 5% could be
+added to your final mark to a maximum of 100% in the course.  Examples of where this may be awarded
+is as follows:
+- Complex class structure due to choosing a very complex management system which is good or excellent in its design. 
+- Advanced use of Java features such as functional interfaces, abstract classes above or beyond what might
+be expected at the second year level.
+- Advanced use of data structures and algorithms in any multiple parts of the system.
+- Advanced use of Exceptions to manage different aspects of the code beyond the second year level.
 
-- Presentation & Demo – 15%
+If you have one of the above components, or another aspect you would like considered, please provide a description and
+why you think it should be considered in the appropriate section of your report.  It is recommended that you complete the 
+requirements of the project and commit a completed project before trying to add bonus material.
 
-- AI Prompt Log & Reflection – 10%
+
+
 
 ----
 
@@ -192,9 +228,9 @@ As a note, it is expected that students will be regularly be committing code to 
 due to technical issues will not normally be accepted. 
 
 ## Team Dynamics
-For those working in a pair, it is expected that each individual will contribute in meaningful and substantive ways to
-the project.  If a complaint is raised by one or both of the members of a working pair, or during final marking, the 
-instructor will examine  the Github logs as evidence regarding contribution. This does not mean that each team member must have the same number of commits, but both members should be pushing code to the repository.  At the discretion of the instructor, under performing members will have deductions associated with their contribution, up to and including 0 for the project for a complete absence of 
+FoIt is expected that each individual will contribute in meaningful and substantive ways to the project.  
+If a complaint is raised by one or more members of a group, or during final marking, the 
+instructor will examine the Github logs as evidence regarding contribution. This does not mean that each team member must have the same number of commits, but both all members should be pushing code to the repository.  At the discretion of the instructor, under performing members may have deductions associated with their contribution, up to and including 0 for the project for a complete absence of 
 meaningful and substantive contributions.  
 
 If there are serious problems arise in multiple groups, the instructor may introduce a short survey halfway through 
