@@ -1,11 +1,15 @@
-# 2024F CS2910 Project Report
+# 2025F CS2910 Project Report
 **Group Members**
 1. Person 1 (Student Number)
 2. Person 2 (Student Number)
+3. Person 3 (Student Number)
 
-# Summary of Game
-_A summary description of the game that you chose.  This should include the name of the game, 
-the goal of the game and a brief description of the key objects in the game. Please provide a link to the game and/or its rules online. (100 words)_
+# Summary of Management System
+_A summary description of the systen that you chose including plain language descriptions of each class.  (100 words)_
+
+# Class Diagram
+
+
 
 # Experiment Report
 ## Player Strategies
