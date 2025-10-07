@@ -2,7 +2,7 @@
 
 ---
 
-**Release Date:** October 6, 2025.
+**Release Date:** October 10, 2025.
 
 **Due Date:** November 23, 2025, 11:59PM. 
 
@@ -41,21 +41,20 @@ public interface ManagementSystem<T> {
 }
 ```
 
-- `T` represents the entity your system manages (e.g., Book, Student, Pet).
+- `T` represents an entity your system manages (e.g., Book, Student, Pet). You should have an overloaded copy of each of the first three methods for each of the entities that can be added to your system.
 
 - Your system must implement this interface.
 
-- You are free to add more methods/classes as needed.
+- You are free (and strongly encouraged) to add more methods/classes as needed.
+
+- `reportAll` should display (either printing to standard input or by other means) a report of everything contained inside the system at a given point in time.
 
 ---
 
 ## 🧩 Possible System Ideas
 
-You may choose any theme, for example:
-
-TODO: add exclusion of Library and
-
-- 📚 Library Management System (Books, Patrons, Loans)
+You may choose any theme **except** for Library or Flight Management Systems as we did examples with both of these in class.
+We encourage you to be creative and chose something you and your group members are interested in. Some examples might include:
 
 - 🏫 Student Course Registration (Students, Courses, Waitlists)
 
@@ -67,7 +66,8 @@ TODO: add exclusion of Library and
 
 - 🏋️ Gym Membership Manager (Members, Classes, Trainers)
 
-You are also welcome to propose your own idea, subject to instructor approval.
+**Please ensure you have read the Technical Requirements section before deciding on a system.** 
+For example, some systems may be too simple for any meaningful inheritance or interface implementations.  
 
 ---
 
@@ -85,19 +85,26 @@ Every project must include:
 
 - Interface Implementation: Your system must implement the ManagementSystem<T> interface.
 
-- Reports: Provide at least 2 meaningful reports (e.g., all items for a user, all users for an item, status of a waitlist).
+- Demo: To showcase all of the features of your Management System, you should add a robust example in Main.java that creates an instance of your Manaagement system class and add many entities to it (creating and adding the many entities may be a good task to hand to generative AI). This demo must include a call to `reportAll`, but should also include at least 2 other meaningful reports (e.g., for a Library Management System, a report for a given Book that prints its title, author, id, status, borrowing history, and the list of Patrons that have an active hold placed on it (if applicable. A report for a given Patron might include their Libraruy card number, all currently borrowed books and holds, as all as indicating if any are overdue, and a list of all books previously borrowed.).
 
 ---
 
 
 ## 👩🏻‍🏫🙋🏽Presentation
 
-Your group presentation should provide a demo of your management system in action, explain your design choices, and how generative AI was used. 
+As mentioned above, your group is expected to give a short 5-7 minute presentation. It is best if everyone in your group has a chance to say something during the presentation, but not necessary. It is necessary for all of your group members to be present though so that any questions can be handled by the entire group.
 
-TODO: finish this section
+Your presentation should provide the following (not necessarily in this order):
 
+1. A demo of your management system in action.
+2. A brief explanation of your design choices.
+3. How generative AI was used.
+4. A minute or two at the end for questions from your classmates and professors. 
 
-
+This presentation is _not_ intended to be stressful, but a good opportunity to take ownership of your work and share your project that you've been working on for several weeks.
+Listening to other presentations will also be a great opportunity to learn from other design decisions groups that made different design decisions.
+Further, practice with presentations is the best way to get better! 
+Very few people are naturally comfortable speaking in front of groups without lots of practice (including your instructors!). 
 
 
 ## 📊 Deliverables
@@ -106,7 +113,7 @@ TODO: finish this section
 
 2. JUnit Test Suite (with meaningful coverage).
 
-3. AI Prompt Log (record key prompts you used + reflections).
+3. AI Prompt Log (see PROMPT_LOG.md for a very basic template). We strongly recommend you add to this as you go instead of trying to compile this at the end. 
 
 4. Presentation (5–7 min):
 
@@ -115,22 +122,23 @@ TODO: finish this section
     - Explanation of your OOP design (inheritance, recursion, linked lists).
 
     - Reflection on your use of AI.
-5. TODO: Report
+      
+5. Report (see REPORT.md for your template)
 
 ---
 
 ## ⏱ Suggested Milestones
 
 - Week 1 (Pick your group): Make your group of 3 people from your lab section.
-- TODO: Proposal???
   
-- Weeks 2 (Design): Define your system, sketch class diagram, write initial tests.
+- Week 2 (Design): Decide on a system, define your system, sketch class diagram, write initial tests.
+  (Note: you may find your initial choice is not robust enough to make an interesting class diagram, so you will want to complete the entire design phase before completely settling on a system)
 
-- Week 3-5 (Implementation): Build core features and data structures. **Remember to use TDD to test throughout development!**
+- Week 3-4 (Implementation): Build core features and data structures. **Remember to use TDD to test throughout development!**
 
-- Week 6 (Final Testing & Reports): Add recursive feature and reports.
+- Week 5 (Final Testing & Reports): Add recursive feature and reports.
 
-- Week 7 (Polish & Presentation): Finalize tests, documentation, and demo.
+- Week 6 (Polish & Presentation): Finalize tests, documentation, and demo.
 
 ---
 
