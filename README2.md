@@ -85,7 +85,7 @@ Every project must include:
 
 - Interface Implementation: Your system must implement the ManagementSystem<T> interface.
 
-- Demo: To showcase all of the features of your Management System, you should add a robust example in Main.java that creates an instance of your Manaagement system class and add many entities to it (creating and adding the many entities may be a good task to hand to generative AI). This demo must include a call to `reportAll`, but should also include at least 2 other meaningful reports (e.g., for a Library Management System, a report for a given Book that prints its title, author, id, status, borrowing history, and the list of Patrons that have an active hold placed on it (if applicable. A report for a given Patron might include their Libraruy card number, all currently borrowed books and holds, as all as indicating if any are overdue, and a list of all books previously borrowed.).
+- Demo: To showcase all of the features of your Management System, you should add a robust example in Main.java that creates an instance of your Management system class and add many entities to it (creating and adding the many entities may be a good task to hand to generative AI). This demo must include a call to `reportAll`, but should also include at least 2 other meaningful reports (e.g., for a Library Management System, a report for a given Book that prints its title, author, id, status, borrowing history, and the list of Patrons that have an active hold placed on it (if applicable. A report for a given Patron might include their Library card number, all currently borrowed books and holds, as all as indicating if any are overdue, and a list of all books previously borrowed.).
 
 ---
 
@@ -119,7 +119,9 @@ Very few people are naturally comfortable speaking in front of groups without lo
 
     - Live demo of your system.
 
-    - Explanation of your OOP design (inheritance, recursion, linked lists).
+    - Explanation of your OOP design (inheritance, interfaces) and your choice of data structures and algorithms (linked lists, queues, recursion).
+  
+    - Run your tests for one unit of your system.
 
     - Reflection on your use of AI.
       
@@ -157,7 +159,7 @@ documentation.
 - **Code Documentation (2 marks):** Average classes will be self-documenting code with well-formed with Javadoc comments for the
 majority of methods and good block level comments.  Excellent documentation will do all of the above throughout all
 of their project.
-- **Presentation (3 marks):** Average presentations will 
+- **Presentation (3 marks):** See the Presentation section for a description of what goes into this part of the project.
 - **Reflection (2 marks):** Average reflections will engage with the provided prompts to have descriptions and reasoning 
 regarding their application of AI.  Excellent reflections will take into account context in which events occur, 
 questions assumption that were made at the time, describes alternatives, thinks about consequences of decisions/actions 
@@ -177,9 +179,6 @@ If you have one of the above components, or another aspect you would like consid
 why you think it should be considered in the appropriate section of your report.  It is recommended that you complete the 
 requirements of the project and commit a completed project before trying to add bonus material.
 
-
-
-
 ----
 
 ## Submission
@@ -191,7 +190,7 @@ As a note, it is expected that students will be regularly be committing code to 
 due to technical issues will not normally be accepted. 
 
 ## Team Dynamics
-FoIt is expected that each individual will contribute in meaningful and substantive ways to the project.  
+It is expected that each individual will contribute in meaningful and substantive ways to the project.  
 If a complaint is raised by one or more members of a group, or during final marking, the 
 instructor will examine the Github logs as evidence regarding contribution. This does not mean that each team member must have the same number of commits, but both all members should be pushing code to the repository.  At the discretion of the instructor, under performing members may have deductions associated with their contribution, up to and including 0 for the project for a complete absence of 
 meaningful and substantive contributions.  
