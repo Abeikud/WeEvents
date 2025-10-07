@@ -89,51 +89,6 @@ Every project must include:
 
 ---
 
-## 📐 Sample Class Diagram (Library Example)
-            +-------------------+
-            |     Item (abs)    |
-            +-------------------+
-            | - id : String     |
-            | - title : String  |
-            +-------------------+
-            | + getId()         |
-            | + getTitle()      |
-            +-------------------+
-                    ^
-                    |
-            +-------------------+    +-------------------+
-            |       Book        |    |       DVD         |
-            +-------------------+    +-------------------+
-            | - author : String |    | - director: String|
-            +-------------------+    +-------------------+
-
-            +-------------------+
-            |      Patron       |
-            +-------------------+
-            | - id : String     |
-            | - name : String   |
-            | - items : LL      |
-            +-------------------+
-            | + borrowItem()    |
-            | + returnItem()    |
-            +-------------------+
-
-            +----------------------------------+
-            |   LibraryManagementSystem        |
-            +----------------------------------+
-            | - items : LL<Item>               |
-            | - patrons : LL<Patron>           |
-            +----------------------------------+
-            | + add(Item/Patron)               |
-            | + remove(Item/Patron)            |
-            | + contains(Item/Patron)          |
-            | + reportAll()                    |
-            +----------------------------------+
-
-
-**(LL = your custom MyLinkedList<T> implementation)**
-
----
 
 ## 👩🏻‍🏫🙋🏽Presentation
 
