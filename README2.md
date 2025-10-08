@@ -85,7 +85,7 @@ Every project must include:
 
 - Interface Implementation: Your system must implement the ManagementSystem<T> interface.
 
-- Demo: To showcase all of the features of your Management System, you should add a robust example in Main.java that creates an instance of your Management system class and add many entities to it (creating and adding the many entities may be a good task to hand to generative AI). This demo must include a call to `reportAll`, but should also include at least 2 other meaningful reports (e.g., for a Library Management System, a report for a given Book that prints its title, author, id, status, borrowing history, and the list of Patrons that have an active hold placed on it (if applicable. A report for a given Patron might include their Library card number, all currently borrowed books and holds, as all as indicating if any are overdue, and a list of all books previously borrowed.).
+- Demo: To showcase all of the features of your Management System, you should add a robust example in Main.java that creates an instance of your Management system class and adds many entities to it (creating and adding the entities may be a good task to hand to generative AI). This demo must include a call to `reportAll`, but should also include at least 2 other meaningful reports. For the Library Management System example, a report for a given Book might prints its title, author, id, status, borrowing history, and the list of all Patrons that have an active hold placed on it (if applicable). A report for a given Patron might include their Library card number, all currently borrowed books and holds, as all as indicating if any are overdue, and a list of all books previously borrowed.
 
 ---
 
@@ -103,6 +103,7 @@ Your presentation should provide the following (not necessarily in this order):
 
 This presentation is _not_ intended to be stressful, but a good opportunity to take ownership of your work and share your project that you've been working on for several weeks.
 Listening to other presentations will also be a great opportunity to learn from other design decisions groups that made different design decisions.
+
 Further, practice with presentations is the best way to get better! 
 Very few people are naturally comfortable speaking in front of groups without lots of practice (including your instructors!). 
 
@@ -115,15 +116,7 @@ Very few people are naturally comfortable speaking in front of groups without lo
 
 3. AI Prompt Log (see PROMPT_LOG.md for a very basic template). We strongly recommend you add to this as you go instead of trying to compile this at the end. 
 
-4. Presentation (5–7 min):
-
-    - Live demo of your system.
-
-    - Explanation of your OOP design (inheritance, interfaces) and your choice of data structures and algorithms (linked lists, queues, recursion).
-  
-    - Run your tests for one unit of your system.
-
-    - Reflection on your use of AI.
+4. Presentation (5–7 min + questions).
       
 5. Report (see REPORT.md for your template)
 
@@ -133,14 +126,14 @@ Very few people are naturally comfortable speaking in front of groups without lo
 
 - Week 1 (Pick your group): Make your group of 3 people from your lab section.
   
-- Week 2 (Design): Decide on a system, define your system, sketch class diagram, write initial tests.
+- Week 2 (Design): Decide on a system, define your system, sketch your initial class diagram, write initial tests.
   (Note: you may find your initial choice is not robust enough to make an interesting class diagram, so you will want to complete the entire design phase before completely settling on a system)
 
 - Week 3-4 (Implementation): Build core features and data structures. **Remember to use TDD to test throughout development!**
 
-- Week 5 (Final Testing & Reports): Add recursive feature and reports.
+- Week 5 (Final Testing & Report): Add recursive feature and report.
 
-- Week 6 (Polish & Presentation): Finalize tests, documentation, and demo.
+- Week 6 (Polish & Presentation): Finalize tests, documentation, polish `report` method formats, and demo.
 
 ---
 
