@@ -11,9 +11,6 @@ We submit this assessment, acknowledging the above commitments and that I have f
 outlined by my instructor and consistent with the Academic Regulation 20.
 
 Signatures:
-
-Student name (Student number)
-
-Student name (Student number)
-
-Student name (Student number)
+1. Adekanola Opololaoluwa (0357547)
+2. Kevin Davies (0354848)
+3. Daniel Dampson(0363404)
