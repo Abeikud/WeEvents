@@ -16,7 +16,8 @@ public class MyLinkedList<T> implements Iterable<T> {
     private static class Node<T> {
         T data;
         Node<T> next;
-        Node(T d) { data = d; }
+        Node(T d)
+        { data = d; }
     }
 
     private Node<T> head; // First node in the list
