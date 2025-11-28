@@ -1,4 +1,4 @@
-# IEvents
+# WeEvents
 #Daniel Abeiku Dampson
 
 ## Summary of Management System
